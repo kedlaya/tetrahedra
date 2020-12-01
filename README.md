@@ -1,4 +1,4 @@
-This repository consists of code and data associated to the paper "Space vectors forming rational angles" by Kiran S. Kedlaya, Alexander Kolpakov, Bjorn Poonen, and Michael Rubinstein. 
+This repository consists of code and data associated to the paper "Space vectors forming rational angles" by Kiran S. Kedlaya, Alexander Kolpakov, Bjorn Poonen, and Michael Rubinstein ([arXiv:2011.14232](https://arxiv.org/abs/2011.14232)).
 
 The code uses a combination of platforms: C++, [SageMath](https://www.sagemath.org/) version 9.2, and [Magma](magma.maths.usyd.edu.au/) version 2.25-6. (SageMath also uses [Singular](https://www.singular.uni-kl.de/) as an embedded component.) The C++ code depends on [Bailey's quad double library QD](https://www.davidhbailey.com/dhbsoftware/) version 2.3.22 for floating-point computations in quad-double precision.
 Some of the SageMath code is embedded in [Jupyter](https://jupyter.org/) notebooks; these were originally run on [CoCalc](https://cocalc.com).
