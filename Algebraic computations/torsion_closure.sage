@@ -170,9 +170,6 @@ def cyclotomic_factors(f):
         if a^K.zeta_order() == 1:
             return (f,)
         return tuple()
-    # Early abort if f is binomial.
-    if f.number_of_terms() == 2:
-        return tuple(g for (g,_) in f.factor() if g(0))
     N = K._n()
     # Find three rational primes that split completely in K at which f is integral.
     # Use these to bound the orders of roots of unity occurring in f.
